@@ -19,13 +19,13 @@ Amazon product review dataset is used for this project. Only the 'All_beauty' pr
 
 7.Extracted the year and month from the `timestamp` column and added them as new columns (`year` and `month`). not sure if needed but just in case.
 
-8.Similarly loaded the meta data and verified if there are any missing values or duplicates. parents_asin is the primary key in the metadata data.
+8. Similarly loaded the meta data and verified if there are any missing values or duplicates. parents_asin is the primary key in the metadata data.
 
-9.Dropped unwanted columns and checked for missing values and made sure it was merged properly with the review data.
+9. Dropped unwanted columns and checked for missing values and made sure it was merged properly with the review data.
 
 10. Filtered data for the years 2015 to 2023
 
-11.After merging the data, checked if there are any missing values in the merged data. 
+11. After merging the data, checked if there are any missing values in the merged data. 
 
 12. Data pre-processing and text processing
 
