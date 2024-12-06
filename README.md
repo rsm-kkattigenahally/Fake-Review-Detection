@@ -6,33 +6,19 @@ Amazon product review dataset is used for this project. Only the 'All_beauty' pr
 
 ## Use case 
 1.Loaded the `All_Beauty.jsonl.gz` file and converted it into a dataframe.
-
 2.Filtered the `review` DataFrame to include only rows where `verified_purchase` is `True`.
-
 3.Converted the `timestamp` column from UNIX time (milliseconds) to a human-readable datetime format.
-
 4.Checked & removed for duplicate rows based on the combination of `user_id`, `asin`, `text`, and `parent_asin` and stored them in `duplicate_rows`.
-
 5.Converted the `text` column to lowercase for uniformity.
-
 6.Dropped the `images` column.
-
 7.Extracted the year and month from the `timestamp` column and added them as new columns (`year` and `month`). not sure if needed but just in case.
-
 8. Similarly loaded the meta data and verified if there are any missing values or duplicates. parents_asin is the primary key in the metadata data.
-
 9. Dropped unwanted columns and checked for missing values and made sure it was merged properly with the review data.
-
 10. Filtered data for the years 2015 to 2023
-
 11. After merging the data, checked if there are any missing values in the merged data. 
-
 12. Data pre-processing and text processing
-
 13. Feature engineering
-
 14. Text vectorization and categorical feature encoding
-
 15. Implementation of K-means clustering and HDBSCAN to classify data as 'Fake' and 'Not Fake'
 
 
