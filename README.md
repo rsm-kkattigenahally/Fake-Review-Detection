@@ -3,6 +3,7 @@ Predicting fake reviews on Amazon product reviews.
 
 ## Dataset
 Amazon product review dataset is used for this project. Only the 'All_beauty' product category is used in this project to make it computationally less expensive. This can be exted to other categories as well.
+The data set is sources from https://amazon-reviews-2023.github.io/
 
 ## Use case 
 1.Loaded the `All_Beauty.jsonl.gz` file and converted it into a dataframe.
